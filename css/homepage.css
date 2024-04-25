@@ -1,0 +1,25 @@
+.add-note__button {
+  border: 1px solid var(--default-color);
+  border-style: dashed;
+  border-radius: var(--default-border-radius);
+  width: 12rem;
+  height: 12rem;
+  background-color: transparent;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.add-note__icon {
+  background-image: url(../asset/icons/ic_add_notes.svg);
+  background-attachment: center;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-page {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}

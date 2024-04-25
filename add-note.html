@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/add-note.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <button class="go-back" id="GoBack">
+        <img src="asset/icons/ic_chevron_left.svg"> </img>
+      </button>
+    </header>
+    <main class="add-note">
+      <textarea
+        id="NoteInput"
+        class="add-note__textarea"
+        placeholder="What's on your mind..."
+      ></textarea>
+    </main>
+    <footer class="footer">
+      <div id="TextEditor" class="text-editor">
+        <button class="text-editor__btn bold" id="BoldText">B</button>
+        <button class="text-editor__btn italic" id="ItalicText">I</button>
+        <button class="text-editor__btn underline" id="UnderlineText">U</button>
+      </div>
+    </footer>
+    <script src="js/AddNote.js"></script>
+  </body>
+</html>

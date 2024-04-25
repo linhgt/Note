@@ -1,0 +1,30 @@
+:root {
+  --default-color: #1e1e1e80;
+  --default-border-radius: 8px;
+}
+
+* {
+  font-family: "Gloria Hallelujah", cursive;
+  color: var(--default-color);
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100dvh;
+  overflow: hidden;
+  max-width: 768px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}

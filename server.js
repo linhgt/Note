@@ -27,12 +27,14 @@ app.use(
   })
 );
 
+app.use("/css", express.static(path.join(__dirname, "/css")));
+
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/homepage.html");
 });
 
 app.get("/add-note", (request, response) => {
-  response.sendFile(__dirname + "/addnote.html");
+  response.sendFile(__dirname + "/add-note.html");
 });
 
 app.listen(port, () => {
